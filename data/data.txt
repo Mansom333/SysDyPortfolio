@@ -62,4 +62,20 @@ window.projectsData = [
         "description": "System dynamics relationship of a predator prey relationship, of Foxes and Rabbits.",
         "link": "https://cloud.anylogic.com/model/1d5a647d-0fee-484b-96e7-023e835d82be"
     }
+
+,
+    {
+        "title": "Bass Diffusion",
+        "image": "BassDiffusion.jpg", 
+        "description": "Simulation of product adoption via advertising and word of mouth influences over time.",
+        "link": "https://cloud.anylogic.com/model/a8d5194f-9c27-4b09-96f0-0c027afd32cb"
+    }
+
+,
+    {
+        "title": "Intersection Traffic",
+        "image": "Traffic.jpg", 
+        "description": "Intersection traffic by modeling vehicle flows, signal timings, and right-of-way rules.",
+        "link": "https://cloud.anylogic.com/model/37bc8d71-0768-4d84-bef6-0d4bd7b892ee"
+    }
 ];
