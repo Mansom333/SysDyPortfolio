@@ -78,4 +78,12 @@ window.projectsData = [
         "description": "Intersection traffic by modeling vehicle flows, signal timings, and right-of-way rules.",
         "link": "https://cloud.anylogic.com/model/37bc8d71-0768-4d84-bef6-0d4bd7b892ee"
     }
+
+,
+    {
+        "title": "Train Yard",
+        "image": "TrainYard.jpg", 
+        "description": "Classification of cars in a Train Yard, using switches and discrete events.",
+        "link": "https://cloud.anylogic.com/model/080c23e4-6628-459d-a48d-c15d8cf020a5"
+    }
 ];
