@@ -86,4 +86,29 @@ window.projectsData = [
         "description": "Classification of cars in a Train Yard, using switches and discrete events.",
         "link": "https://cloud.anylogic.com/model/080c23e4-6628-459d-a48d-c15d8cf020a5"
     }
+
+
+,
+    {
+        "title": "Supply Chain",
+        "image": "supplyChain.jpg", 
+        "description": "Supply Chain for Trucks making delivers from warehouse to retail stores based on dynamic order requests.",
+        "link": "https://cloud.anylogic.com/model/a22713d6-d18f-4d95-bd6c-e3a1935ea05a"
+    }
+
+,
+    {
+        "title": "CASE STUDY: Car Wash",
+        "image": "carWash.jpg", 
+        "description": "Digital twin of local car wash business, a case study of optimal working capacity based on process flow and demand, using live data obtained from Google Maps.",
+        "link": "https://cloud.anylogic.com/model/74c35773-ca84-4611-8041-ea6db5b1f531"
+    }
+
+,
+    {
+        "title": "Air Defence System",
+        "image": "AirDef.jpg", 
+        "description": "Surface to air missile systems protecting a strategic area from bomber attacks.",
+        "link": "https://cloud.anylogic.com/model/8170fffb-ba7b-4b48-9d4c-dc45c9b013e7"
+    }
 ];
