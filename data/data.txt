@@ -111,4 +111,32 @@ window.projectsData = [
         "description": "Surface to air missile systems protecting a strategic area from bomber attacks.",
         "link": "https://cloud.anylogic.com/model/8170fffb-ba7b-4b48-9d4c-dc45c9b013e7"
     }
+,
+    {
+        "title": "Manufacturing Line",
+        "image": "MFLine.jpg", 
+        "description": "Simulation of a Manufacturing Line, with competing departments and success metrics.",
+        "link": "https://cloud.anylogic.com/model/"
+    }
+,
+    {
+        "title": "CASE STUDY: Push Job Processing",
+        "image": "TradFinPush.jpg", 
+        "description": "Simulation of a business' job processing system. Using anylogic as an education simulation tool to identify some pros and cons of this process type and long long term projections.",
+        "link": "https://cloud.anylogic.com/model/"
+    }
+,
+    {
+        "title": "Battery Production Factory",
+        "image": "BatteryProd.jpg", 
+        "description": "Factory with conveyor belts, cranes, machine processing, forklifts, and using material processing library.",
+        "link": "https://cloud.anylogic.com/model/"
+    }
+,
+    {
+        "title": "INTEGRATION: Power BI",
+        "image": "PBI1.jpg", 
+        "description": "Gaining familiarity and understanding of Power BI for executive presentation of data pulled from Anylogic models.",
+        "link": "https://cloud.anylogic.com/model/"
+    }
 ];
