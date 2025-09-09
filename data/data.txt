@@ -139,4 +139,11 @@ window.projectsData = [
         "description": "Gaining familiarity and understanding of Power BI for executive presentation of data pulled from Anylogic models.",
         "link": "https://cloud.anylogic.com/model/"
     }
+,
+    {
+        "title": "INTEGRATION: Power BI + SQL",
+        "image": "PowerDash1.jpg", 
+        "description": "Using SQL and PowerBI to create dashboards.",
+        "link": "https://cloud.anylogic.com/model/"
+    }
 ];

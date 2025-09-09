@@ -327,6 +327,14 @@
     <!-- Load project data -->
     <script src="data/projects.js"></script>
     <script>
+        // Helper function to check if a link is valid
+        function hasValidLink(link) {
+            return link && 
+                   link.trim() !== '' && 
+                   link !== 'https://cloud.anylogic.com/model/' &&
+                   link !== 'https://cloud.anylogic.com/model';
+        }
+
         function openModal(project) {
             const modal = document.getElementById('projectModal');
             const modalImage = document.getElementById('modalImage');
@@ -338,7 +346,14 @@
             modalImage.alt = project.title;
             modalTitle.textContent = project.title;
             modalDescription.textContent = project.description;
-            modalLink.href = project.link;
+            
+            // Show or hide the modal link based on whether the project has a valid link
+            if (hasValidLink(project.link)) {
+                modalLink.href = project.link;
+                modalLink.style.display = 'inline-flex';
+            } else {
+                modalLink.style.display = 'none';
+            }
 
             modal.classList.add('active');
             document.body.style.overflow = 'hidden';
@@ -373,9 +388,11 @@
                     <div class="project-content">
                         <h3 class="project-title">${project.title}</h3>
                         <p class="project-description">${project.description}</p>
-                        <a href="${project.link}" target="_blank" class="project-link" onclick="event.stopPropagation()">
-                            View Project →
-                        </a>
+                        ${hasValidLink(project.link) ? `
+                            <a href="${project.link}" target="_blank" class="project-link" onclick="event.stopPropagation()">
+                                View Project →
+                            </a>
+                        ` : ''}
                     </div>
                 </div>
             `).join('');
