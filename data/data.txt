@@ -146,4 +146,18 @@ window.projectsData = [
         "description": "Using SQL and PowerBI to create dashboards.",
         "link": "https://cloud.anylogic.com/model/"
     }
+,
+    {
+        "title": "Train Shuttle",
+        "image": "TrainShuttle.jpg", 
+        "description": "Train shuttle using train, process flow and pedestrian libraries, with KPIs for waiting time and queue.",
+        "link": "https://cloud.anylogic.com/model/f1b72a1a-6531-4064-b4ba-15fec8f7568a"
+    }
+,
+    {
+        "title": "INTEGRATION: LUCID CHARTS",
+        "image": "Slide1.jpg", 
+        "description": "Building models in LucidCharts using BPMN 2.0, then re-creating the model in AnyLogic to compare the functionalities of both.",
+        "link":
+    }
 ];
