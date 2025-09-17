@@ -158,6 +158,6 @@ window.projectsData = [
         "title": "INTEGRATION: LUCID CHARTS",
         "image": "Slide1.jpg", 
         "description": "Building models in LucidCharts using BPMN 2.0, then re-creating the model in AnyLogic to compare the functionalities of both.",
-        "link":
+        "link": "https://cloud.anylogic.com/model/"
     }
 ];
