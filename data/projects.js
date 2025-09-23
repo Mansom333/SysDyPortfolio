@@ -158,6 +158,13 @@ window.projectsData = [
         "title": "INTEGRATION: LUCID CHARTS",
         "image": "Slide1.jpg", 
         "description": "Building models in LucidCharts using BPMN 2.0, then re-creating the model in AnyLogic to compare the functionalities of both.",
-        "link": "https://cloud.anylogic.com/model/"
+        "link":
     }
+    {
+        "title": "Action Charts for Code Documentation",
+        "image": "buffet.jpg", 
+        "description": "Simple model of a conference buffet, gaining exposure to Action Charts for anylogic best practices, for displaying and representing code structure for exec level staff and other modelling engineers",
+        "link":
+    }
+];
 ];
