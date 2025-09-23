@@ -16,15 +16,13 @@ window.projectsData = [
         "image": "workshop.png",
         "description": "Real time digital twin of workshop CNC facility with predictive algorithms and quality control systems.", 
         "link": "https://cloud.anylogic.com/model/31a79e50-afe3-40cd-888c-c26bbd2c14f4"
-    }
-,
+    },
     {
         "title": "Airport",
         "image": "airport.jpg", 
         "description": "Simulation of airport, analysis of required working capacity and task duration optimisation.",
         "link": "https://cloud.anylogic.com/model/07b0c177-abcc-48e1-9f67-eade10701087"
-    }
-,
+    },
     {
         "title": "Bank ATM Utilisation",
         "image": "BankATM.jpg", 
@@ -38,8 +36,7 @@ window.projectsData = [
         "image": "BankATM2.jpg", 
         "description": "Variation incorporating additional factors such as user decision making to determine ATM usage compared to bank tellers, when additional support is needed.",
         "link": "https://cloud.anylogic.com/model/da62a5d9-f4dc-4e53-8ff1-b874e34ff91b"
-    }
-,
+    },
     {
         "title": "Hospital Foot Traffic",
         "image": "Hospital.jpg", 
@@ -110,61 +107,53 @@ window.projectsData = [
         "image": "AirDef.jpg", 
         "description": "Surface to air missile systems protecting a strategic area from bomber attacks.",
         "link": "https://cloud.anylogic.com/model/8170fffb-ba7b-4b48-9d4c-dc45c9b013e7"
-    }
-,
+    },
     {
         "title": "Manufacturing Line",
         "image": "MFLine.jpg", 
         "description": "Simulation of a Manufacturing Line, with competing departments and success metrics.",
         "link": "https://cloud.anylogic.com/model/"
-    }
-,
+    },
     {
         "title": "CASE STUDY: Push Job Processing",
         "image": "TradFinPush.jpg", 
         "description": "Simulation of a business' job processing system. Using anylogic as an education simulation tool to identify some pros and cons of this process type and long long term projections.",
         "link": "https://cloud.anylogic.com/model/"
-    }
-,
+    },
     {
         "title": "Battery Production Factory",
         "image": "BatteryProd.jpg", 
         "description": "Factory with conveyor belts, cranes, machine processing, forklifts, and using material processing library.",
         "link": "https://cloud.anylogic.com/model/"
-    }
-,
+    },
     {
         "title": "INTEGRATION: Power BI",
         "image": "PBI1.jpg", 
         "description": "Gaining familiarity and understanding of Power BI for executive presentation of data pulled from Anylogic models.",
         "link": "https://cloud.anylogic.com/model/"
-    }
-,
+    },
     {
         "title": "INTEGRATION: Power BI + SQL",
         "image": "PowerDash1.jpg", 
         "description": "Using SQL and PowerBI to create dashboards.",
         "link": "https://cloud.anylogic.com/model/"
-    }
-,
+    },
     {
         "title": "Train Shuttle",
         "image": "TrainShuttle.jpg", 
         "description": "Train shuttle using train, process flow and pedestrian libraries, with KPIs for waiting time and queue.",
         "link": "https://cloud.anylogic.com/model/f1b72a1a-6531-4064-b4ba-15fec8f7568a"
-    }
-,
+    },
     {
         "title": "INTEGRATION: LUCID CHARTS",
         "image": "Slide1.jpg", 
         "description": "Building models in LucidCharts using BPMN 2.0, then re-creating the model in AnyLogic to compare the functionalities of both.",
-        "link":
-    }
+        "link": ""
+    },
     {
         "title": "Action Charts for Code Documentation",
         "image": "buffet.jpg", 
         "description": "Simple model of a conference buffet, gaining exposure to Action Charts for anylogic best practices, for displaying and representing code structure for exec level staff and other modelling engineers",
-        "link":
+        "link": ""
     }
-];
 ];
