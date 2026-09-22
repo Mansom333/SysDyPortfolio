@@ -155,5 +155,12 @@ window.projectsData = [
         "image": "buffet.jpg", 
         "description": "Simple model of a conference buffet, gaining exposure to Action Charts for anylogic best practices, for displaying and representing code structure for exec level staff and other modelling engineers",
         "link": ""
+    },
+    {
+        "title": "CASE STUDY: Mining Port",
+        "image": "MiningPort.png",
+        "description": "Discrete event model of the Amrun bauxite export port, sizing berths and stockyard against a mine feeding 150,000 t/day through weather that shuts the port. Weather modelled as a Markov chain across wet and dry seasons. A 36-run parameter sweep over 12 stockyard sizes and 3 berth counts shows the berth is the constraint, not the pile: two berths lift four-year exports by 52.6% over one, a third berth adds nothing, and stockyard gains flatten near 1.4 Mt.",
+        "link": "https://cloud.anylogic.com/model/aec73013-3034-4a6e-a7c4-eb55e14bfa11",
+        "report": "reports/MiningPort_Version2Model_Report.pdf"
     }
 ];

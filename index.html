@@ -260,6 +260,39 @@
             transform: translateY(-2px);
         }
 
+        .modal-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .modal-link.secondary {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .modal-link.secondary:hover {
+            background: rgba(255, 255, 255, 0.12);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .project-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem;
+        }
+
+        .project-link.secondary {
+            color: #ffffff;
+            opacity: 0.75;
+        }
+
+        .project-link.secondary:hover {
+            color: #ffffff;
+            opacity: 1;
+        }
+
         @keyframes slideIn {
             from {
                 opacity: 0;
@@ -317,9 +350,14 @@
             <div class="modal-info">
                 <h2 id="modalTitle" class="modal-title"></h2>
                 <p id="modalDescription" class="modal-description"></p>
-                <a id="modalLink" class="modal-link" href="" target="_blank">
-                    View Project →
-                </a>
+                <div class="modal-links">
+                    <a id="modalLink" class="modal-link" href="" target="_blank">
+                        View Project →
+                    </a>
+                    <a id="modalReport" class="modal-link secondary" href="" target="_blank">
+                        Read Report (PDF) →
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -341,6 +379,7 @@
             const modalTitle = document.getElementById('modalTitle');
             const modalDescription = document.getElementById('modalDescription');
             const modalLink = document.getElementById('modalLink');
+            const modalReport = document.getElementById('modalReport');
 
             modalImage.src = `images/${project.image}`;
             modalImage.alt = project.title;
@@ -353,6 +392,14 @@
                 modalLink.style.display = 'inline-flex';
             } else {
                 modalLink.style.display = 'none';
+            }
+
+            // Show the report link only for projects that ship a write-up
+            if (project.report && project.report.trim() !== '') {
+                modalReport.href = project.report;
+                modalReport.style.display = 'inline-flex';
+            } else {
+                modalReport.style.display = 'none';
             }
 
             modal.classList.add('active');
@@ -388,11 +435,18 @@
                     <div class="project-content">
                         <h3 class="project-title">${project.title}</h3>
                         <p class="project-description">${project.description}</p>
-                        ${hasValidLink(project.link) ? `
-                            <a href="${project.link}" target="_blank" class="project-link" onclick="event.stopPropagation()">
-                                View Project →
-                            </a>
-                        ` : ''}
+                        <div class="project-links">
+                            ${hasValidLink(project.link) ? `
+                                <a href="${project.link}" target="_blank" class="project-link" onclick="event.stopPropagation()">
+                                    View Project →
+                                </a>
+                            ` : ''}
+                            ${project.report ? `
+                                <a href="${project.report}" target="_blank" class="project-link secondary" onclick="event.stopPropagation()">
+                                    Report →
+                                </a>
+                            ` : ''}
+                        </div>
                     </div>
                 </div>
             `).join('');
